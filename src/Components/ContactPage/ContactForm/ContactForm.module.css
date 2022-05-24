@@ -1,0 +1,21 @@
+.formWrapper {
+    margin-top: 50px;
+}
+.formTitle {
+    margin-bottom: 25px;
+    font-family: 'Playfair Display', serif;
+}
+.messageBtn {
+    background-color: #f8b600;
+    border: 0;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: 500;
+    color: #fff;
+}
+.horizontal {
+    width : 90%;
+    margin: 0 auto;
+    color: blue;
+    margin-top: 25px;
+}

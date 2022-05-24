@@ -1,0 +1,19 @@
+.contactUsWrapper {
+    background-image: url("../../../assets/contactUsBg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.contactContents {
+    position: absolute;
+    padding: 10px;
+    background-color: #fff;
+    opacity: 0.8;
+    top: 40%;
+    color :#000 !important;
+    border-radius: 25px;
+}
+.contactContents h4{
+    font-family: 'Playfair Display', serif;
+}

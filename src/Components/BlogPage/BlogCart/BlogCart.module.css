@@ -1,0 +1,12 @@
+.blogCartBtn {
+    background-color: #f8b600 !important;
+    border: 0;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: 500 !important;
+    font-family: 'Playfair Display', serif !important;
+    color: #fff !important;
+}
+.blogCartTitle {
+    font-family: 'Playfair Display', serif;
+}

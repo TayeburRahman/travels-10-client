@@ -1,0 +1,31 @@
+/* .marqueeStyle {
+    width: 100%;
+    margin: 20px 0px;
+    height: 50px;
+    direction: 'left';
+    background-color: rgb(221, 221, 221);
+    color: #333;
+    display: flex;
+    align-items: center;
+    font-family: 'Playfair Display', serif;
+} */
+.packageInfo h3, h4{
+    font-family: 'Playfair Display', serif;
+}
+.bookNowBtn{
+    border-radius: 5px;
+    color: #fff !important;
+    font-size: 18px;
+    font-weight: 500 !important;
+    background-color: #f8b600 !important;
+    margin-bottom: 40px;
+}
+.horizontal {
+    width : 90%;
+    margin: 0 auto;
+    color: blue;
+    margin-top: 25px;
+}
+.travelPic {
+    text-align: center;
+}

@@ -1,0 +1,28 @@
+.footWrapper {
+    padding: 50px 0px;
+}
+.footerSocial {
+    margin-top: 20px;
+}
+.footerSocial i {
+    font-size: 20px;
+    margin-right: 10px;
+}
+.footerTitle {
+    margin-bottom: 25px;
+    font-family: 'Playfair Display', serif;
+}
+.footerSubtext {
+    font-family: 'Poppins', sans-serif;
+}
+.footerListItem {
+    list-style: none;
+    margin-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+.questionText {
+    list-style: none;
+    margin-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 10px;
+}

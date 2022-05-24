@@ -1,0 +1,24 @@
+.KnowUsWrapper{
+    padding: 50px 0px;
+}
+.knowUsContents {
+    text-align: center;
+}
+.knowUsTitle {
+    padding: 50px 0px 15px 0px;
+    font-family: 'Playfair Display', serif;
+}
+.knowUspagagraph {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+@media (min-width: 576px) {}
+
+@media (min-width: 768px) {}
+
+@media (min-width: 992px) {}
+
+@media (min-width: 1200px) {}
+
+@media (min-width: 1400px) {}

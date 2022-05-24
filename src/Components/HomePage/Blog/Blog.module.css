@@ -1,0 +1,7 @@
+.blogWrapper {
+    margin: 50px 0px;
+}
+.blogSiteImg {
+    display: flex;
+    justify-content: center;
+}

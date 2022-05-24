@@ -1,0 +1,26 @@
+.imgDiv{
+    margin: 50px 0px;
+}
+.contents {
+    padding: 50px 15px;
+    width : 80%;
+}
+.contents h4 {
+    font-style: italic;
+    color: #fff;
+    margin-left: 10px;
+    font-weight: 600;
+    font-family: 'Playfair Display', serif;
+}
+.discount {
+    color: yellow;
+    margin-left: 10px;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+}
+.imgStyle {
+ background-image: url("../../../assets/aboutPageBoatSea.webp");
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+}

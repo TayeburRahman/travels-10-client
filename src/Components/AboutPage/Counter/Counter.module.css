@@ -1,0 +1,23 @@
+.counterWrapper {
+    margin: 25px 0px;
+    text-align: center;
+    border: 1px solid lightgray;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 0px 5px 10px -3px lightgray;
+}
+.counterWrapper img {
+    width : 35%;
+}
+.counterWrapper h2 {
+    font-family: 'Playfair Display', serif;
+}
+.horizontal {
+    width : 90%;
+    margin: 0 auto;
+    color: blue;
+    margin-top: 25px;
+}
+.CounterName{
+    font-family: 'Playfair Display', serif;
+}

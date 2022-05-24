@@ -1,0 +1,31 @@
+.newsLtterTitle {
+  font-family: "Playfair Display", serif;
+}
+.newsLetterWrapper {
+  margin: 50px 0px;
+}
+.imgDiv {
+  overflow: hidden;
+  border-radius: 15px;
+}
+.newsLetterBtn {
+  background-color: #f8b600 !important;
+  color: #fff !important;
+  font-weight: 500 !important;
+}
+
+
+@keyframes move {
+  0% {
+    transform: scale(1) translateY(0);
+    transform-origin: 50% 16%;
+  }
+  100% {
+    transform: scale(1.25) translateY(-15px);
+    transform-origin: top;
+  }
+}
+
+.imgStyle {
+    animation: move 5s ease 0s infinite alternate-reverse forwards;
+}

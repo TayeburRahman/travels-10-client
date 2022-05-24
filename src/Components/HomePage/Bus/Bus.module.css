@@ -1,0 +1,29 @@
+.busBg {
+  margin-top: 50px;
+  background-image: url("../../../assets/headerBg.png");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  overflow: hidden;
+}
+@keyframes move {
+  0% {
+    transform: translateX(-100px);
+  }
+  100% {
+    transform: translateX(100px);
+  }
+}
+.busMove {
+  animation: move 6s ease infinite alternate both;
+}
+
+@media (min-width: 576px) {}
+
+@media (min-width: 768px) {}
+
+@media (min-width: 992px) {}
+
+@media (min-width: 1200px) {}
+
+@media (min-width: 1400px) {}

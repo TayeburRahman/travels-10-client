@@ -1,0 +1,25 @@
+.inclusions {
+  text-align: center;
+  margin-right: 10px;
+}
+.inclusions i {
+  font-size: 20px;
+}
+.horizontal {
+  width: 90%;
+  margin: 0 auto;
+  color: blue;
+  margin-top: 25px;
+}
+.singleTourBg {
+  background-image: url("../../../assets//singleTourbg.jpg.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.singleTourBannerText {
+  font-family: "Playfair Display", serif;
+  color: #fff;
+  text-align: center;
+  padding: 60px;
+}

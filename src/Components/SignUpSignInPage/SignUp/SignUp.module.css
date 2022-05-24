@@ -1,0 +1,23 @@
+.signUpWrapper {
+  margin: 50px 0px;
+}
+.signUpText h4 {
+  text-align: center;
+  margin: 30px 0px;
+  font-family: "Playfair Display", serif;
+}
+.signUpBtn {
+  border-radius: 5px;
+  color: #fff !important;
+  font-size: 18px;
+  font-weight: 500 !important;
+  background-color: #f8b600 !important;
+  border: 0;
+  padding: 4px;
+}
+.registered {
+  text-align: center;
+  margin-top: 15px;
+  cursor: pointer;
+  font-family: "Playfair Display", serif;
+}

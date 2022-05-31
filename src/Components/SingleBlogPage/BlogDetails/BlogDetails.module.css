@@ -36,38 +36,39 @@
   color: #fff !important;
 }
 .recentPostTitle {
-    font-family: "Playfair Display", serif;
-  }
-  .categoryList {
-    display: flex;
-    justify-content: space-between;
-  }
-  .categoryList p {
-    font-family: "Poppins", sans-serif;
-    margin-bottom: 0;
-  }
-  .newsLetterDesc {
-    margin: 20px 0px;
-    text-align: center;
-    font-family: "Poppins", sans-serif;
-  }
-  .unsubscribe {
-    margin-top: 5px;
-    text-align: center;
-    font-family: "Poppins", sans-serif;
-  }
-.customCart {
-    background-color: #f8f9fa !important;
-}
-.singleBlogTitle, .authorName {
   font-family: "Playfair Display", serif;
 }
-.singleBlogDescription, .commentText {
+.categoryList {
+  display: flex;
+  justify-content: space-between;
+}
+.categoryList p {
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 0;
+}
+.newsLetterDesc {
+  margin: 20px 0px;
+  text-align: center;
   font-family: "Poppins", sans-serif;
 }
-.commentHeader, .replyHeader {
+.unsubscribe {
+  margin-top: 5px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+.customCart {
+  background-color: #f8f9fa !important;
+}
+.singleBlogTitle,
+.authorName {
+  font-family: "Playfair Display", serif;
+}
+.singleBlogDescription,
+.commentText {
+  font-family: "Poppins", sans-serif;
+}
+.commentHeader,
+.replyHeader {
   margin-bottom: 20px;
   font-family: "Playfair Display", serif;
 }
-
-  

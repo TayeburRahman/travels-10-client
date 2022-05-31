@@ -1,18 +1,18 @@
-import React, { useEffect } from 'react';
-import AllBlogs from './AllBlogs/AllBlogs';
-import BlogHeader from './BlogHeader/BlogHeader';
-import Footer from '../Shared/Footer/Footer'
+import React, { useEffect } from "react";
+import Footer from "../Shared/Footer/Footer";
+import AllBlogs from "./AllBlogs/AllBlogs";
+import BlogHeader from "./BlogHeader/BlogHeader";
 const Blog = () => {
-    useEffect(()=>{
-        window.scrollTo(0,0)
-    },[])
-    return (
-        <div>
-            <BlogHeader />
-            <AllBlogs />
-            <Footer />
-        </div>
-    );
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+  return (
+    <div>
+      <BlogHeader />
+      <AllBlogs />
+      <Footer />
+    </div>
+  );
 };
 
 export default Blog;

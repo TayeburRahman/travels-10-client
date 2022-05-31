@@ -1,17 +1,21 @@
-import React, { useState } from 'react';
-import useTourPlan from '../../CartTourPlan/useTourPlan';
-import useAuth from '../../SignUpSignInPage/UseAuthHook/useAuth';
-import Confirm from '../Confirm.jsx/Confirm';
-import FormPaymentDetails from '../FormPaymentDetails/FormPaymentDetails';
-import FormUserDetails from '../FormUserDetails/FormUserDetails';
-import Success from '../Success/Success';
-
-
+import React, { useState } from "react";
+import useTourPlan from "../../CartTourPlan/useTourPlan";
+import useAuth from "../../SignUpSignInPage/UseAuthHook/useAuth";
+import Confirm from "../Confirm.jsx/Confirm";
+import FormPaymentDetails from "../FormPaymentDetails/FormPaymentDetails";
+import FormUserDetails from "../FormUserDetails/FormUserDetails";
+import Success from "../Success/Success";
 
 const UserForm = () => {
   const { isLoggedIn } = useAuth();
-  const { tour } = useTourPlan()
-  const { displayPhoto, name, packageGroupPeoples, packagePresentPrice, totaldays } = tour
+  const { tour } = useTourPlan();
+  const {
+    displayPhoto,
+    name,
+    packageGroupPeoples,
+    packagePresentPrice,
+    totaldays,
+  } = tour;
   // console.log(displayPhoto, name, packageGroupPeoples, packagePresentPrice, totaldays)
 
   const [userFrom, setUserForm] = useState({
@@ -24,22 +28,32 @@ const UserForm = () => {
     cardNumber: "",
     cvc: "",
     expireDate: "",
-  })
-  const [step, setStep] = useState(1)
+  });
+  const [step, setStep] = useState(1);
 
   //* Process to next step
   const nextStep = () => {
-    setStep(step + 1)
-  }
+    setStep(step + 1);
+  };
 
   //* Go back to prev step
   const prevStep = () => {
-    setStep(step - 1)
-  }
+    setStep(step - 1);
+  };
 
   //* Handle fields changes
   const handleChange = (values) => {
-    const { fullName, email, phone, address, city, cardName, cardNumber, cvc, expireDate } = values
+    const {
+      fullName,
+      email,
+      phone,
+      address,
+      city,
+      cardName,
+      cardNumber,
+      cvc,
+      expireDate,
+    } = values;
     setUserForm({
       ...userFrom,
       fullName,
@@ -56,12 +70,11 @@ const UserForm = () => {
       name,
       packageGroupPeoples,
       packagePresentPrice,
-      totaldays
-    })
-  }
+      totaldays,
+    });
+  };
 
   // console.log(userFrom);
-
 
   switch (step) {
     case 1:
@@ -71,7 +84,7 @@ const UserForm = () => {
           handleChange={handleChange}
           values={userFrom}
         />
-      )
+      );
 
     case 2:
       return (
@@ -81,24 +94,18 @@ const UserForm = () => {
           prevStep={prevStep}
           values={userFrom}
         />
-      )
+      );
 
     case 3:
       return (
-        <Confirm
-          nextStep={nextStep}
-          prevStep={prevStep}
-          values={userFrom}
-        />
-      )
+        <Confirm nextStep={nextStep} prevStep={prevStep} values={userFrom} />
+      );
 
     case 4:
-      return (
-        <Success />
-      )
+      return <Success />;
 
     default:
-      return ""
+      return "";
   }
 };
 

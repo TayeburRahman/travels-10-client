@@ -1,11 +1,11 @@
-import React from 'react';
-import BookHeader from './BookHeader/BookHeader';
+import React from "react";
+import BookHeader from "./BookHeader/BookHeader";
 const BookNow = () => {
-    return (
-        <>
-            <BookHeader />
-        </>
-    );
+  return (
+    <>
+      <BookHeader />
+    </>
+  );
 };
 
 export default BookNow;

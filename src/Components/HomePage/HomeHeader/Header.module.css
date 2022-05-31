@@ -1,63 +1,67 @@
 .planeTreeBg {
-    background-image: url("../../../assets/plane&treeBg.webp");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-image: url("../../../assets/plane&treeBg.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .headerContent {
-    display: flex;
-    justify-content: center;
-    min-height: 70vh;
+  display: flex;
+  justify-content: center;
+  min-height: 70vh;
 }
 .headerContent button {
-    font-weight: 600;
-    margin-top: 20px;
-    background-color: rgb(35, 35, 102);
-    padding: 10px 30px;
-    color: #fff;
-    border-radius: 5px;
-    font-size: 22px;
-    font-family: 'Playfair Display', serif;
+  font-weight: 600;
+  margin-top: 20px;
+  background-color: rgb(35, 35, 102);
+  padding: 10px 30px;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 22px;
+  font-family: "Playfair Display", serif;
 }
 .headerContent button:hover {
-    background-color: hsl(44, 100%, 49%);
-    color: #fff;
+  background-color: hsl(44, 100%, 49%);
+  color: #fff;
 }
 .mainHeading {
-    font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
 }
 .headerContentInner {
-    text-align: center;
-    margin: auto 0;
+  text-align: center;
+  margin: auto 0;
 }
 .headerContentInner p {
-    padding-top: 20px;
-    color:rgb(35, 35, 102);
+  padding-top: 20px;
+  color: rgb(35, 35, 102);
 }
 .headerParagraph {
-    font-family: 'Playfair Display', serif;
-    font-size: 26px;
-    font-weight: 500;
+  font-family: "Playfair Display", serif;
+  font-size: 26px;
+  font-weight: 500;
 }
 .headerBgContent {
-    background-image: url("../../../assets//headerBg.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    min-height: 100vh;
+  background-image: url("../../../assets//headerBg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
 }
 
 @media (min-width: 576px) {
-    .headerContent button {
-        padding: 15px 50px;
-        font-size: 24px;
-    }
+  .headerContent button {
+    padding: 15px 50px;
+    font-size: 24px;
+  }
 }
 
-@media (min-width: 768px) {}
+@media (min-width: 768px) {
+}
 
-@media (min-width: 992px) {}
+@media (min-width: 992px) {
+}
 
-@media (min-width: 1200px) {}
+@media (min-width: 1200px) {
+}
 
-@media (min-width: 1400px) {}
+@media (min-width: 1400px) {
+}

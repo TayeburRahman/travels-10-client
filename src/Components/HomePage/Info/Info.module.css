@@ -1,50 +1,52 @@
 .infoCart {
-    display: flex;
-    align-items: center;
-    margin-top: 50px;
-    padding: 0px 10px;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+  padding: 0px 10px;
+  justify-content: center;
 }
 .infoTitle {
-    font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
 }
 .subTitle {
-    font-family: 'Poppins', sans-serif;
-    margin-bottom: 0;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 0;
 }
 .infoImg {
-    width : 10%;
+  width: 10%;
 }
 .horizontal {
-    width : 90%;
-    margin: 0 auto;
-    color: blue;
+  width: 90%;
+  margin: 0 auto;
+  color: blue;
 }
 @media (min-width: 576px) {
-    .infoCart {
-        justify-content: center;
-        padding: 10px 10px;
-    }
-    .infoImg {
-        width : 14%;
-    }
+  .infoCart {
+    justify-content: center;
+    padding: 10px 10px;
+  }
+  .infoImg {
+    width: 14%;
+  }
 }
 
 @media (min-width: 768px) {
-    .infoCart {
-        padding: 20px 10px;
-    }
-    .infoImg {
-        width : 20%;
-    }
+  .infoCart {
+    padding: 20px 10px;
+  }
+  .infoImg {
+    width: 20%;
+  }
 }
 
 @media (min-width: 992px) {
-    .infoCart {
-        padding: 50px 10px;
-    }
+  .infoCart {
+    padding: 50px 10px;
+  }
 }
 
-@media (min-width: 1200px) {}
+@media (min-width: 1200px) {
+}
 
-@media (min-width: 1400px) {}
+@media (min-width: 1400px) {
+}
